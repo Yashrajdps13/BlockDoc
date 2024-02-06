@@ -11,11 +11,10 @@ function App() {
     signer: null,
     contract: null
   });
-  const [openModel, setOpenModel] = useState(false);
   const [account, setAccount] = useState("None");
   useEffect(() => {
     const connectWallet = async () => {
-      const contractAddress = "0xc134Fa183e879607d940f6CaD8aB1847178104F7";
+      const contractAddress = "0x3192554A56f00798228F14a667024d31D941207D";
       const contractABI = GDrive.abi;
       try {
         const { ethereum } = window;
@@ -49,15 +48,11 @@ function App() {
   // console.log(state);
   return (
     <div>
-      {!openModel && (
-        <button className="share"
-          onClick={() => setOpenModel(true)}>Share</button>
-      )}{" "}
-      {openModel && (
-        <AccessList setOpenModel={setOpenModel}
-          contract={state.contract} />
-      )}
+      
       <div className="App">
+        <AccessList 
+          contract={state.contract} />
+
         <h1>G-drive 3.0</h1>
         <br />
         <p>Account: {account}</p>

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-function AccessList ({setOpenModel, contract}) {
+function AccessList ({contract}) {
     const sharing = async() => {
         const address = document.querySelector('.address').value;
         await contract.allow(address);
@@ -32,7 +32,7 @@ function AccessList ({setOpenModel, contract}) {
                 </select>
             </form>
             <br />
-            <button onClick={() => {setOpenModel(false)}} id = 'cancelbtn'>Cancel</button>
+            <button id = 'cancelbtn'>Cancel</button>
             <br />
             <button onClick={sharing}>Share</button>
         </div>
