@@ -21,7 +21,7 @@ function AccessList ({setOpenModel, contract}) {
         contract && accessList();
     }, [contract]);
     return(
-        <>
+        <div>
             <h3>Share with</h3>
             <input type = 'text' className="address" />
             <br />
@@ -35,7 +35,7 @@ function AccessList ({setOpenModel, contract}) {
             <button onClick={() => {setOpenModel(false)}} id = 'cancelbtn'>Cancel</button>
             <br />
             <button onClick={sharing}>Share</button>
-        </>
+        </div>
     )
 }
 

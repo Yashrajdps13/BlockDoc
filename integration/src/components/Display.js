@@ -5,15 +5,20 @@ function Display ({ contract, account}) {
         try {
             let dataArray;
             const otherAddress = document.querySelector('.address').value;
+            console.log(otherAddress);
             if (otherAddress) {
                 dataArray = await contract.display(otherAddress);
+                
             } else {
                 dataArray = await contract.display(account[0]);
             }
+            console.log(dataArray);
             const isEmpty = Object.keys(dataArray).length === 0;
-            if (isEmpty) {
+            console.log(isEmpty);
+            if (!isEmpty) {
                 const str = dataArray.toString();
                 const str_array = str.split(",");
+                console.log(str_array);
                 const images = str_array.map((item, i) =>{
                     return (
                         <a href = {`https://ipfs.io/ipfs/${item.substring(7)}`} key = {i} target="_blank">
@@ -28,7 +33,7 @@ function Display ({ contract, account}) {
         }
     };
     return (
-        <>
+        <div>
             <div>{data}</div>
             <br />
             <br />
@@ -36,7 +41,7 @@ function Display ({ contract, account}) {
             <br />
             <br />
             <button onClick={getData}>Get Data</button>
-        </>
+        </div>
     );
 
 }

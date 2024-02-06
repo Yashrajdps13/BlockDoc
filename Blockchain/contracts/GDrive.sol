@@ -35,7 +35,7 @@ contract GDrive {
         }
     }
 
-    function accessShare() public view returns(Access[] memory) {
+    function accessShare(address u) public view returns(Access[] memory) {
         return accessL[msg.sender];
     }
 

@@ -12,7 +12,7 @@ function Upload({contract, account}) {
                 const formData = new FormData();
                 formData.append("file", file);
                 const api_key = document.querySelector(".api-key").value;
-                const api_secret_key = document.querySelector(".api-secret-key").value;
+                const api_secret_key = document.querySelector(".secret-api-key").value;
                 const resFile = await axios({
                     method: "post",
                     url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
@@ -36,20 +36,23 @@ function Upload({contract, account}) {
     };
 
     const retrieveFile = (e) => {
-        const data = e.target.files[0];
+        try {const data = e.target.files[0];
         const reader = new window.FileReader();
         reader.readAsArrayBuffer(data);
         reader.onload = () => {
             setFile(data);
         }
         setFileName(data.name);
-        e.preventDefault();
+        e.preventDefault();}
+        catch(e){
+            console.log(e)
+        }
     };
     return (
-        <>
+        <div>
             <form onSubmit={handleSubmit}>
                 <label htmlFor='api_key'>Enter API Key</label>
-                <input disabled = {!account} type = 'text' className='api-key' id = 'api_key' />
+                <input disabled = {!account} type = 'text' className='api-key'/>
                 <br />
                 <br />
                 <label htmlFor='secret_api_key'>Enter Secret API key</label>
@@ -65,7 +68,7 @@ function Upload({contract, account}) {
                 <br />
                 <button type='submit' disabled = {!file}>Upload</button>
             </form>
-        </>
+        </div>
     );
 }
 
