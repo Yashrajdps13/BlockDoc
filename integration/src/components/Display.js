@@ -33,8 +33,12 @@ function Display ({ contract, account}) {
             <br />
             <br />
             <input type = 'text' placeholder='Enter Address' className="address" />
-            
+            <br />
+            <br />
+            <button onClick={getData}>Get Data</button>
         </>
-    )
+    );
 
 }
+
+export default Display;
