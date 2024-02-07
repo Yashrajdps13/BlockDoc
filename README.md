@@ -24,8 +24,50 @@ BlockDoc aims to empower patients by providing a decentralized solution for stor
 - **Database**: MongoDB, IPFS, Pinata
 ## Getting Started
 
+## Backend Setup (WEB folder)
+## REPO LINK
+<https://github.com/srivas-divyansh/BlockDoc.git>
+1. **Clone the Git repository:**
+   ```bash
+   git clone https://github.com/srivas-divyansh/BlockDoc.git
+2. **Navigate to the backend folder:**
+   ```bash
+   cd Website/Backend
+3. **Install dependencies:**
+   ```bash
+   npm install
 
-[Provide instructions on setting up and running the project locally.]
+3. **Build TypeScript files:**
+   ```bash
+   tsc -b
+4. **Start the Backend**
+   ```bash
+   npm run start
+## Frontend Setup (WEB folder)
+1. **Navigate to the frontend folder:**
+   ```bash
+   cd Website/Frontend
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Build the frontend:**
+   ```bash
+   npm run dev # or npm run built
+
+## Runnning Flutter App
+1. **Navigate to the app folder:**
+   ```bash
+   cd "Doctor's Application/mongo_test"
+2. **Resolve Flutter dependencies:**
+   ```bash
+   flutter pub get
+3. **Choose your desired environment (emulator, phone, etc.).**
+4. **Run the Flutter app:**
+   ```bash
+   flutter run
+
+
+
 
 **VIDEO DEMONSTRATION OF OUR PROJECT ON WEB and APP can be viewed [here](https://drive.google.com/drive/folders/18MjbfBinvpmukWxK7A3iAbwt1ubvf5Z1?usp=drive_link)**
 
@@ -53,15 +95,32 @@ The motivation behind BlockDoc is to empower individuals in managing their healt
 - Continuous improvement of disease prediction models.
 - Additional features based on user feedback.
 
-##INTERFACE
-**(APP)**
-![IMG-20240207-WA0015](https://github.com/gitsubh7/BlockDoc/assets/123920716/fdc1f8fa-8f21-4687-9cfd-30cc3793c6ff)
-![IMG-20240207-WA0019](https://github.com/gitsubh7/BlockDoc/assets/123920716/be31503e-a6a1-4309-a6d1-a5f88215b3a4)
-![IMG-20240207-WA0018](https://github.com/gitsubh7/BlockDoc/assets/123920716/6076f552-898b-45e6-9944-6dfbe824111e)
-![IMG-20240207-WA0017](https://github.com/gitsubh7/BlockDoc/assets/123920716/b977499d-c167-4130-a0b4-20c4ef820237)
-![IMG-20240207-WA0016](https://github.com/gitsubh7/BlockDoc/assets/123920716/2b5dd688-7eea-4c60-8991-bd7a1e43982f)
 
-**(WEB)**
+
+## WEB  and APP INTERFACE
+![s1](https://github.com/gitsubh7/BlockDoc/assets/123920716/4f06ad25-2a0c-4ae2-b363-1fb09538a19f)
+![s2](https://github.com/gitsubh7/BlockDoc/assets/123920716/dfcbb626-2422-492f-8d7a-daec5733ae45)
+![s3](https://github.com/gitsubh7/BlockDoc/assets/123920716/3bfb35f0-a805-4984-9d03-208f89371897)
+![s4](https://github.com/gitsubh7/BlockDoc/assets/123920716/1ba15f44-3bd5-4e11-9d82-758f46a5ddad)
+![s5](https://github.com/gitsubh7/BlockDoc/assets/123920716/e86e4c1f-6e1d-45f8-bb19-29c11999771b)
+![s6](https://github.com/gitsubh7/BlockDoc/assets/123920716/26e7762b-e5af-4a56-be0e-672d5977b76e)
+![s7](https://github.com/gitsubh7/BlockDoc/assets/123920716/d4060eec-f0da-4611-aee3-2d9255e227c6)
+
+
+
+![IMG-20240207-WA0018](https://github.com/gitsubh7/BlockDoc/assets/123920716/0a8905b2-342e-4b06-9075-b2969b70cf58)
+![IMG-20240207-WA0016](https://github.com/gitsubh7/BlockDoc/assets/123920716/6462e617-18b6-49d7-92f6-7797e95c23c2)
+![IMG-20240207-WA0017](https://github.com/gitsubh7/BlockDoc/assets/123920716/34ecff06-f499-48ab-8ba4-8fa823ecfde3)
+![IMG-20240207-WA0019](https://github.com/gitsubh7/BlockDoc/assets/123920716/40c7b0c5-a5ee-4ce4-aa68-85386f1f1943)
+![IMG-20240207-WA0015](https://github.com/gitsubh7/BlockDoc/assets/123920716/7043f67d-a473-42f3-84e6-986e5ae7e9cb)
+
+
+
+
+
+
+
+
 
 BlockDoc is not just a project; it's a step towards transforming healthcare. Join us on this journey, and together, we'll make a lasting impact on the way medical information is managed and utilized.
 
