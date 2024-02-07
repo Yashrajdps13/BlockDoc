@@ -15,13 +15,13 @@ BlockDoc aims to empower patients by providing a decentralized solution for stor
 
 ## Tech Stack
 
-- **Blockchain**: 
-- **Machine Learning**: Tensorflow, Keras, Scikit-Learn, Flask, 
+- **Blockchain**: HardHat, Polygon, ReactJS, EtherJS
+- **Machine Learning**: Tensorflow, Keras, Scikit-Learn, Flask,Pillow,Numpy
 - **Frontend (Flutter)**: Dart, Flutter
-- **Frontend (Web)**: 
-- **PDF Summarizer**: NLTK(NLP), PalmAPI, Transformers,Streamlit
-- **Backend**: NextJS,Render
-- **Database**: MongoDB, IPFS
+- **Frontend (Web)**: HTML,CSS,JavaScript,TypeScript,NextJS,TailwindCSS
+- **PDF Summarizer**: NLTK(NLP), PalmAPI,Transformers,Streamlit
+- **Backend**: NodeJS,ExpressJS,Solidity,Render,Version Control
+- **Database**: MongoDB, IPFS, Pinata
 ## Getting Started
 
 [Provide instructions on setting up and running the project locally.]
@@ -49,9 +49,5 @@ The motivation behind BlockDoc is to empower individuals in managing their healt
 - Continuous improvement of disease prediction models.
 - Additional features based on user feedback.
 
-## Further Resources
-
-- **Project Report**: [Link to the project's wiki for detailed documentation]
-- **Contributing Guidelines**: [Learn how to contribute to the project]
 
 BlockDoc is not just a project; it's a step towards transforming healthcare. Join us on this journey, and together, we'll make a lasting impact on the way medical information is managed and utilized.
