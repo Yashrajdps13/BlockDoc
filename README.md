@@ -15,12 +15,13 @@ BlockDoc aims to empower patients by providing a decentralized solution for stor
 
 ## Tech Stack
 
-- **Blockchain**: [Specify your blockchain platform]
-- **Machine Learning**: [Specify your ML framework and libraries]
-- **Frontend (Flutter)**: [Specify Flutter version and relevant dependencies]
-- **Frontend (Web)**: [Specify Web technologies and frameworks]
-- **PDF Summarizer**: [Specify the technology or library used]
-
+- **Blockchain**: 
+- **Machine Learning**: Tensorflow, Keras, Scikit-Learn, Flask, 
+- **Frontend (Flutter)**: Dart, Flutter
+- **Frontend (Web)**: 
+- **PDF Summarizer**: NLTK(NLP), PalmAPI, Transformers,Streamlit
+- **Backend**: NextJS,Render
+- **Database**: MongoDB, IPFS
 ## Getting Started
 
 [Provide instructions on setting up and running the project locally.]
