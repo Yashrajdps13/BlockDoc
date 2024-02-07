@@ -1,6 +1,6 @@
 "use client"
 
-import Upload from "../components/abi/Upload.json";
+import GDrive from "../components/abi/GDrive.json";
 
 import { useState,useEffect } from "react";
 import FileUpload from "../components/FileUpload";
@@ -23,8 +23,8 @@ function App() {
   const [account, setAccount] = useState("None");
   useEffect(() => {
     const connectWallet = async () => {
-      const contractAddress = "0x610178dA211FEF7D417bC0e6FeD39F05609AD788";
-      const contractABI = Upload.abi;
+      const contractAddress = "0x3192554A56f00798228F14a667024d31D941207D";
+      const contractABI = GDrive.abi;
       try {
         const { ethereum } = window;
         if (ethereum) {

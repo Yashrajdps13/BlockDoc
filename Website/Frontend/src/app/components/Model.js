@@ -8,7 +8,7 @@ function Model({setOpenModel, contract}) {
     }
     useEffect(() => {
         const accessList = async() => {
-            const addressList = await contract.shareAccess();
+            const addressList = await contract.accesssShare();
             let select = document.querySelector(".selectNumber");
             const options = addressList;
             // console.log(options.length);
