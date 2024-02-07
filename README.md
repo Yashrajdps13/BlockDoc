@@ -53,15 +53,15 @@ The motivation behind BlockDoc is to empower individuals in managing their healt
 - Continuous improvement of disease prediction models.
 - Additional features based on user feedback.
 
-##Interface (APP)
+##INTERFACE
+**(APP)**
 ![IMG-20240207-WA0015](https://github.com/gitsubh7/BlockDoc/assets/123920716/fdc1f8fa-8f21-4687-9cfd-30cc3793c6ff)
 ![IMG-20240207-WA0019](https://github.com/gitsubh7/BlockDoc/assets/123920716/be31503e-a6a1-4309-a6d1-a5f88215b3a4)
 ![IMG-20240207-WA0018](https://github.com/gitsubh7/BlockDoc/assets/123920716/6076f552-898b-45e6-9944-6dfbe824111e)
 ![IMG-20240207-WA0017](https://github.com/gitsubh7/BlockDoc/assets/123920716/b977499d-c167-4130-a0b4-20c4ef820237)
 ![IMG-20240207-WA0016](https://github.com/gitsubh7/BlockDoc/assets/123920716/2b5dd688-7eea-4c60-8991-bd7a1e43982f)
 
-##Interface (Web)
-
+**(WEB)**
 
 BlockDoc is not just a project; it's a step towards transforming healthcare. Join us on this journey, and together, we'll make a lasting impact on the way medical information is managed and utilized.
 
