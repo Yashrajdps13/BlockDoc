@@ -27,8 +27,8 @@ BlockDoc aims to empower patients by providing a decentralized solution for stor
 
 [Provide instructions on setting up and running the project locally.]
 
-## VIDEO DEMONSTRATION OF OUR PROJECT ON WEB and APP
- [click here](https://drive.google.com/drive/folders/18MjbfBinvpmukWxK7A3iAbwt1ubvf5Z1?usp=drive_link)
+**VIDEO DEMONSTRATION OF OUR PROJECT ON WEB and APP [click here](https://drive.google.com/drive/folders/18MjbfBinvpmukWxK7A3iAbwt1ubvf5Z1?usp=drive_link)**
+
 
 ## Motivation
 
