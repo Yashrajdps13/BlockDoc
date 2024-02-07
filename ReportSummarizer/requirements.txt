@@ -1,0 +1,8 @@
+Flask
+Flask-Ngrok
+requests
+PyPDF2
+google-generativeai
+tensorflow
+Gunicorn
+Werkzeug
