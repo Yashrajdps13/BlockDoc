@@ -32,7 +32,7 @@ BlockDoc aims to empower patients by providing a decentralized solution for stor
    git clone https://github.com/srivas-divyansh/BlockDoc.git
 2. **Navigate to the backend folder:**
    ```bash
-   cd Website/Backend
+   cd Website/backend
 3. **Install dependencies:**
    ```bash
    npm install
